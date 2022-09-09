@@ -1,0 +1,10 @@
+    
+    if keys[pygame.K_UP] and y>0: 
+        
+        y -= vel 
+          
+    
+    if keys[pygame.K_DOWN] and y<500-height: 
+      y += vel 
+             
+    
